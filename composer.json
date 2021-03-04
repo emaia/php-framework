@@ -1,0 +1,20 @@
+{
+  "name": "emaia/php-framework",
+  "description": "Simple PHP Framework for learning purposes",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dina",
+      "email": "eu@emaia.dev"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  }
+}
